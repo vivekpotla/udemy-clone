@@ -42,15 +42,15 @@ function Header() {
         <Offcanvas.Body>
          
 
-        <ul className="navbar-nav navbar-collapse d-flex flex-column justify-content-center gap-2  text-center " >
-  <li className="nav-item nav-items-2"><Link className='nav-link text-dark' to='development'>Development</Link></li>
-  <li className="nav-item nav-items-2"><Link className='nav-link text-dark' to='marketing'>Marketing</Link></li>
-  <li className="nav-item nav-items-2"><Link className='nav-link text-dark' to='itsoftware'>IT & Software</Link></li>
-  <li className="nav-item nav-items-2"><Link className='nav-link text-dark' to='design'>Design</Link></li>
-  <li className="nav-item nav-items-2"><Link className='nav-link text-dark' to='personal'>Personal Development</Link></li>
-  <li className="nav-item nav-items-2"><Link className='nav-link text-dark' to='business'>Business</Link></li>
-  <li className="nav-item nav-items-2"><Link className='nav-link text-dark' to='music'>Music</Link></li>
-  <li className="nav-item nav-items-2"><Link className='nav-link text-dark' to='health'>Health & Fitness</Link></li>
+        <ul className="navbar-nav navbar-collapse d-flex flex-column justify-content-center gap-2  text-center w-100" >
+  <li className="nav-item nav-items-2 border w-100 "><Link className='nav-link text-dark' to='development'>Development</Link></li>
+  <li className="nav-item nav-items-2 border w-100"><Link className='nav-link text-dark' to='marketing'>Marketing</Link></li>
+  <li className="nav-item nav-items-2 border w-100"><Link className='nav-link text-dark' to='itsoftware'>IT & Software</Link></li>
+  <li className="nav-item nav-items-2 border w-100"><Link className='nav-link text-dark' to='design'>Design</Link></li>
+  <li className="nav-item nav-items-2 border w-100"><Link className='nav-link text-dark' to='personal'>Personal Development</Link></li>
+  <li className="nav-item nav-items-2 border w-100"><Link className='nav-link text-dark' to='business'>Business</Link></li>
+  <li className="nav-item nav-items-2 border w-100"><Link className='nav-link text-dark' to='music'>Music</Link></li>
+  <li className="nav-item nav-items-2 border w-100"><Link className='nav-link text-dark' to='health'>Health & Fitness</Link></li>
 
   <li className='d-flex gap-3 mt-5 mx-auto' >
   <li>
@@ -64,7 +64,7 @@ function Header() {
                 
                  </li>
                  <li className=''>
-                 <Link className='nav-link text-dark ' to='profile'><FontAwesomeIcon icon={faUser} className='fa-lg'/></Link>
+                 <Link className='nav-link text-dark ' to='login'><FontAwesomeIcon icon={faUser} className='fa-lg'/></Link>
                  </li>
   </li>
 </ul>
@@ -86,7 +86,7 @@ function Header() {
                          <Dropdown.Item href="/business" className='p-2'>Business</Dropdown.Item>
                          <Dropdown.Item href="/music" className='p-2'>Music</Dropdown.Item>
                          <Dropdown.Item href="/itsoftware" className='p-2'>IT & Software</Dropdown.Item>
-                         <Dropdown.Item href="/personaldevelopment" className='p-2'>Personal Development</Dropdown.Item>
+                         <Dropdown.Item href="/personal" className='p-2'>Personal Development</Dropdown.Item>
                          <Dropdown.Item href="/design" className='p-2'>Design</Dropdown.Item>
                          <Dropdown.Item href="/health" className='p-2'>Health & Fitness</Dropdown.Item>
                          <Dropdown.Item href="/marketing" className='p-2'>Marketing</Dropdown.Item>
@@ -134,7 +134,7 @@ function Header() {
                 
                  </li>
                  <li className='me-5'>
-                 <Link className='nav-link text-dark' to='profile'><FontAwesomeIcon icon={faUser} className='fa-lg'/></Link>
+                 <Link className='nav-link text-dark' to='login'><FontAwesomeIcon icon={faUser} className='fa-lg'/></Link>
                  </li>
            </ul>
  

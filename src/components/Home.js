@@ -14,8 +14,8 @@ function Home() {
            <div className='row'>
              <div className='col-sm-1'></div>
           <div className="col-sm-11">
-            <h1  className="">Learning that gets you</h1>
-            <p className=''> Skills for your present (and your future). Get started with us.</p>
+            <h1  className="font-head">Learning that gets you</h1>
+            <p className='font-head-txt'> Skills for your present (and your future). Get started with us.</p>
             
             </div>
             

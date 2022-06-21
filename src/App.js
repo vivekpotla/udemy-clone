@@ -13,6 +13,8 @@ import Business from './components/Business'
 import Teach from './components/Teach'
 import Design from './components/Design';
 import Health from './components/Health';
+import Personal from './components/personal';
+import Login from './components/Login';
 function App() {
   return (
     <div>
@@ -22,7 +24,7 @@ function App() {
 
     <Routes>
 
-    <Route path='/'  element={<Home/>}/>
+          <Route path='/'  element={<Home/>}/>
           <Route path='/home'  element={<Home/>}/>
           <Route path='/teach' element ={<Teach/>}/>
           <Route path='/development'  element={<Development/>}/>
@@ -32,6 +34,8 @@ function App() {
           <Route path='/music' element={<Music/>}/>
           <Route path='/design' element={<Design/>}/>
           <Route path='/health' element={<Health/>}/>
+          <Route path='/personal' element={<Personal/>}/>
+          <Route path='/login' element={<Login/>}/>
     </Routes>
 
 
