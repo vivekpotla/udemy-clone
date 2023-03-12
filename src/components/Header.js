@@ -21,7 +21,7 @@ function Header() {
 
 
   return (
-    <div className='w-100 '>
+    <div className='w-100 position-fixed'>
      <div className='first-navbar w-100'> 
        <nav className="w-100 navbar navbar-expand-lg bg-light  p-2 m-0 justify-content-between gap-2" >
   
